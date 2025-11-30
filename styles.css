@@ -197,8 +197,8 @@ form button:hover {
     gap: 40px;
     padding: 0 30px;
     transition-duration: 0.10s;
-    animation: slideIn;
-    animation-duration: 3s;
+    /* animation: slideIn;
+    animation-duration: 3s; */
 }
 
 
@@ -548,5 +548,6 @@ textarea{
         padding: 20px 0;
     }
 }
+
 
 
