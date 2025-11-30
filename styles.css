@@ -21,6 +21,24 @@ header{
     position: sticky;
     top: 0;
     z-index: 1;
+    transition-duration: 0.3s;
+}
+
+.logo:hover{
+    transform: scale(1.1);
+    transition-duration: 0.3s;
+}
+
+.btn:hover{
+    background-color: #ed5057;
+    color: white;
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
+
+.btn:hover{
+    transform: scale(1.1);
+    transition-duration: 0.3s;
 }
 
 .nav>div{
@@ -43,6 +61,7 @@ header{
     /* align-items: center; */
     /* padding-left: 370px; */
     /* margin-left: 50px;; */
+    transition-duration: 0.3s;
 }
 ul{
     list-style: none;
@@ -57,6 +76,12 @@ ul{
     padding-left:130px ;
     /* border: 2px solid #d9d9d9; */
 }
+
+ul>li:hover{
+    transform: scale(1.1);
+    transition-duration: 0.3s;
+}
+
 ul>li{
     /* border:2px solid green; */
     height: 100%;
@@ -146,14 +171,12 @@ form button:hover {
     flex-direction: column;
     align-items: center;
 }
-/* MAIN SECTION */
 .help-section {
     width: 100%;
     background: white;
     padding-bottom: 50px;
 }
 
-/* TOP BANNER */
 .top-banner {
     background: #e45a5a;
     color: white;
@@ -189,7 +212,6 @@ form button:hover {
     color: #e45a5a;
 }
 
-/* FEATURES GRID */
 .features-container {
     margin-top: 80px;
     display: flex;
@@ -202,7 +224,6 @@ form button:hover {
 }
 
 
-/* SINGLE BOX */
 .feature-box {
     text-align: center;
     width: 300px;
@@ -269,18 +290,30 @@ form button:hover {
     display: flex;
     flex-direction: row;
     gap: 20px;
+    transition-duration: 0.3s;
 }
 
 .place-card {
     width: 330px;
     background: white;
     box-shadow: 0px 3px 8px rgba(0,0,0,0.1);
+    /* transform: scale(1.5); */
 }
 
 .place-card img {
     width: 100%;
     height: 200px;
     object-fit: cover;
+}
+
+.place-card:hover {
+    transform: scale(1.05);
+    transition-duration: 0.3s;
+}
+
+.sidebar:hover {
+    transform: scale(1.05);
+    transition-duration: 0.3s;
 }
 
 .card-content {
@@ -382,6 +415,7 @@ form button:hover {
     background-color: #ffffff;
     width: 600px;
     height: 600px;
+    transition-duration: 0.3s;
 }
 .blog-post{
     /* border: 2px solid blue; */
@@ -389,6 +423,17 @@ form button:hover {
     height: 200px;
     display: flex;
 }
+
+.blogs:hover{
+    transform: scale(1.05);
+    transition-duration: 0.3s;
+}
+
+.blog-post:hover{
+    transform: scale(1.05);
+    transition-duration: 0.3s;
+}
+
 .blog-post img{
     padding: 10px 10px;
     width: 200px;
@@ -427,6 +472,7 @@ form button:hover {
     justify-content: center;
     align-items: center;
     gap:30px;
+    transition-duration: 0.3s;
 }
 .contact-form{
     /* background-color: rgba(255, 255, 255, 0.8); */
@@ -440,6 +486,12 @@ form button:hover {
     /* justify-content: center;
     align-items: center; */
 }
+
+.contact-form:hover{
+    transform: scale(1.05);
+    transition-duration: 0.3s;
+}
+
 .c-form{
     display: flex;
     flex-direction: column;
@@ -548,6 +600,18 @@ textarea{
         padding: 20px 0;
     }
 }
+.footer{
+    height: 5vh;
+    background-color: #1f3644;
+    color: white;
+    text-align: center;
+}
 
+li>a{
+    text-decoration: none;
+    color: black;
+}
 
-
+li>a:hover{
+    color: white;
+}
