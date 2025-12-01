@@ -209,7 +209,7 @@ ul>li:hover {
 form {
     background: white;
     padding: 20px;
-    width: 70%;
+    width: 60%;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -266,7 +266,7 @@ form button:hover {
 
 .form-container {
     height: 300px;
-    width: 80%;
+    width: 60%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -828,3 +828,4 @@ li>a:hover {
         max-width: 500px;
     }
 }
+
